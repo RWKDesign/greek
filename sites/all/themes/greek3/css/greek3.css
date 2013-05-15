@@ -1,0 +1,694 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine:regular,bold);
+
+p.highlight { 
+    font-family: 'Tangerine', "Zapf Chancery", cursive, serif; 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 0.2em;
+    margin: 0;
+    padding: 0;
+}
+
+#block-block-30 p.highlight {margin-top:.8em;}
+#block-block-8 p.highlight {margin-top: .5em;}
+
+p.green-right /* highlight text color and placement */ {
+	color: #b1c23d;
+	float: right;
+}
+
+div.block.with-block-editing div.edit {
+    top: 40px;
+}
+div.lower-right-text {
+    min-height:380px;
+    background-color:#fff;
+    padding:50px 20px 20px 20px;
+}
+
+div.region-content-top {
+    /*height: 450px;*/
+    background-color: #137ecd;
+}
+
+div.lower-right-text .smaller {
+    font-size: .9em;
+}
+
+#header div.block-block {
+	width: 480px;
+	height: 250px;
+	float: left;
+}
+
+div.header-text {
+    padding: 40px;
+    color: #ffffff;
+}
+
+.page-map-lombard div.header-text {
+    padding: 20px;
+}
+
+.page-map-lombard p {
+    font-size: 90%;
+}
+
+div.header-text a:link, div.header-text a:visited, div.header-text a:hover, div.header-text a:active  {
+    color: #ffffff;
+}
+
+div.on-white {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 30px;
+    height: 230px;
+    color: #000;
+}
+
+.on-white p {
+
+}
+
+/* TY: Edited from ML version */ 
+.page-menu-catering div.on-white, .page-menu-catering-lombard div.on-white, .page-menu div.on-white, .page-menu-greek-islands-old div.on-white, .page-menu-wine-list div.on-white,
+.page-menu-lunch-dinner div.on-white
+{
+   padding-top: 30px;
+}
+
+div.on-white a:link, div.on-white a:visited, div.on-white a:hover, div.on-white a:active {
+	color: #005eac;
+}
+
+div.on-white table {
+	border-collapse: collapse;
+	color: #001933;
+	font-size: 0.9em;
+	line-height: 1.1em;
+	margin-top: 2em;
+}
+
+div.on-white table td {
+   vertical-align: top;
+   padding: 0 0.5em 0.5em 0;
+}
+
+div.on-white table .lombard {
+	color: #005eac;
+}
+
+a#logo {
+   display: block;
+   width: 480px;
+   height: 250px;
+   float: left;
+   position: relative;
+
+}
+
+div#header {
+   width: 960px;
+   height:250px;
+}
+
+#header div.section {
+}
+
+
+#block-webformblock-2 {
+    min-height:381px;
+    background-color:#fff;
+    padding:48px 20px 20px 20px;
+    font-weight: normal;
+}
+
+#block-webformblock-2 label {
+    font-weight: normal;
+    width: 80px;
+    float: left;
+    text-align: right;
+    padding: 3px 0.5em 3px 0;
+}
+#block-block-5 {margin-bottom: 0px;}
+
+#block-webformblock-2 label span.form-required {
+    display: none;
+}
+
+#block-webformblock-2 textarea, #block-webformblock-2 input {
+    font-size: 12px;
+    line-height: 1.5em;
+    border: solid 2px #666666;
+    width: 339px;
+    background-color: #fff;
+    background-image: none;
+    padding: 3px;
+}
+
+#block-webformblock-2 input.form-submit {
+    margin-left: 90px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width:123px;
+    background-image: url(../images/submit-button-bg.png);
+    padding: 0;
+}
+
+#block-webformblock-2 textarea:after,#block-webformblock-2 input:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*#navigation {
+    width:965px;
+	height: 0;
+	position: relative;
+}*/
+
+#header div#block-block-4  /*navigation bar */ {
+    width:965px;
+    height:40px;
+    position:absolute;
+    z-index:100;
+    top:250px
+}
+
+div#block-block-6 {padding-bottom:7px;}
+
+div#block-block-27 {float: right;}
+
+
+
+/* MENU */
+/* TY: Edited from ML version */
+.page-menu-catering #content-area div.content, .page-menu-catering-lombard #content-area div.content, .page-menu-greek-islands-old #content-area div.content, .page-menu-wine-list #content-area div.content {
+  margin: 20px 40px 20px 80px;
+}
+
+.page-menu-wine-list .menu td {
+  padding-right: 40px;
+}
+
+.page-menu-wine-list .menu td td, .page-menu-wine-list .menu td th {
+  padding-right: 0;
+}
+
+/* TY: Edited from ML version */
+.page-menu-catering h2,
+.page-menu-catering h3,
+.page-menu-catering h4,
+.page-menu-catering-lombard h2,
+.page-menu-catering-lombard h3,
+.page-menu-catering-lombard h4,
+.page-menu-greek-islands-old h2,
+.page-menu-greek-islands-old h3,
+.page-menu-greek-islands-old h4,
+.page-menu-wine-list h2,
+.page-menu-wine-list h3,
+.page-menu-wine-list h4 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color: #175eac;
+}
+
+.page-menu-greek-islands-old .hot h2,
+.page-menu-greek-islands-old .hot h3,
+.page-menu-greek-islands-old .hot h4,
+.page-menu-greek-islands-old-lombard .hot h2,
+.page-menu-greek-islands-old-lombard .hot h3,
+.page-menu-greek-islands-old-lombard .hot h4,
+.page-menu-catering .hot h2,
+.page-menu-catering .hot h3,
+.page-menu-catering .hot h4 {
+
+	color: #ad0822;
+
+}
+
+.page-menu-greek-islands-old .menu p,
+.page-menu-catering-lombard .menu p,
+.page-menu-catering .menu p {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-right: 7em;
+
+}
+
+.page-menu-wine-list .menu td.wine, .page-menu-wine-list .menu td.price {
+	padding-top: 1em;
+	
+}
+.page-menu-wine-list .menu {
+  margin-top: 50px;
+}
+
+.page-menu-wine-list .menu td.wine {
+	font-size: 1.1em;
+	
+}
+
+.page-menu-wine-list td, .page-menu-wine-list th {
+	font-variant: small-caps;
+	color: #175eac;
+}
+
+.page-menu-wine-list th {
+
+	background-color: #c6e4f8;
+
+}
+
+.page-menu-wine-list td.wine-description {
+    font-variant: normal;
+    font-size: 0.9em;
+}
+
+.page-menu-greek-islands-old .menu td div, .page-menu-catering .menu td div, .page-menu-catering-lombard .menu td div {
+	position: relative;
+}
+
+span.price {
+    /*display: block;*/
+    position: absolute;
+    right: 0;
+    padding-left: 4em;
+    padding-right: 2em;
+    text-align: right;
+}
+
+td.price, th.price {
+    /*display: block;*/
+    /*position: absolute;*/
+    padding-left: 1em;
+    padding-right: 0.5em;
+    text-align: right;
+}
+
+
+
+
+/* Map pages */
+
+.page-map-chicago div.lower-right-text, .page-map-lombard div.lower-right-text {
+    padding: 0;
+    position: relative;
+}
+
+.page-map-chicago div.lower-right-text div, .page-map-lombard div.lower-right-text div {
+    width: 224px;
+    min-height:358px;
+    padding:40px 6px 4px 10px;
+    float: left;
+}
+
+
+.page-map-chicago div.lower-right-text img, .page-map-lombard div.lower-right-text img {
+    display: block;
+    float: left;
+}
+
+.page-map-chicago div.lower-right-text img:after, .page-map-lombard div.lower-right-text img:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.page-map-chicago div.lower-right-text b, .page-map-chicago div.lower-right-text strong, .page-map-lombard div.lower-right-text b, .page-map-lombard div.lower-right-text strong {
+	color: #005eac;
+}
+
+.page-map-chicago div.lower-right-text p, .page-map-lombard div.lower-right-text p {
+  margin-bottom: 0;
+}
+
+#block-views-about_page_slideshow-block_1{
+     font-size:18px;
+      display:block;
+        width:375px;
+        color:white;
+        float:right;
+        padding: 80px 45px 20px 20px; 
+}
+
+
+.logged-in #main-wrapper {
+  margin-top: 39px;
+}
+
+
+
+/* TY: NEW STYLE FOR CATERING MENU */
+
+.menu-section {
+  border: 2px solid black;
+  margin: 0px;
+  padding: 4px;
+  color: white;
+  font-family: serif;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+
+/* YA: New Menu */
+
+#quicktabs-menu_tabs .view-content {
+}
+
+#node-227 td,
+#node-227 th,
+#node-230 td,
+#node-230 th
+{
+	vertical-align: top;
+}
+
+
+#node-228 .views-view-grid {
+	empty-cells: hide;
+}
+
+
+#node-224 .col-first,
+#node-224 .col-last,
+#node-226 .col-first,
+#node-226 .col-last,
+#node-227 .col-first,
+#node-227 .col-last,
+#node-228 .col-first,
+#node-228 .col-last,
+#node-230 .col-first,
+#node-230 .col-last
+{
+	width: 458px !important;
+	padding-left: 8px !important;
+}
+
+#node-224 .views-view-grid,
+#node-226 .views-view-grid,
+#node-227 .views-view-grid,
+#node-228 .views-view-grid,
+#node-230 .views-view-grid
+{
+	border-collapse: separate;
+	border-spacing: 15px 0px;
+	empty-cells: hide;
+}
+
+#node-224 .panel-pane h2.pane-title,
+#node-226 .panel-pane h2.pane-title,
+#node-227 .panel-pane h2.pane-title,
+#node-228 .panel-pane h2.pane-title,
+#node-230 .panel-pane h2.pane-title
+{
+	padding-left: 15px;
+}
+
+#node-224 .view-daily-soup-choices .views-row-first {
+	background-color: transparent !important;
+	border-bottom: none;
+}
+
+#node-224 .view-daily-soup-choices .views-table {
+	position: relative;
+	left: 7%;
+	width: 85%;
+}
+
+#node-224 .view-daily-soup-choices .view-header, 
+#node-224 .view-Menu .view-header,
+#node-228 .view-Menu .view-header
+{
+	padding-left: 15px;
+}
+
+#node-224 .view-daily-soup-choices .views-field-edit-node {
+	clear: all;
+	display: block;
+}
+
+#node-224 .view-content table.views-table thead th.views-field,
+#node-224 .view-content table.views-table tbody td.views-field,
+#node-226 .view-content table.views-table thead th.views-field,
+#node-226 .view-content table.views-table tbody td.views-field,
+#node-227 .view-content table.views-table thead th.views-field,
+#node-227 .view-content table.views-table tbody td.views-field,
+#node-228 .view-content table.views-table thead th.views-field,
+#node-228 .view-content table.views-table tbody td.views-field,
+#node-230 .view-content table.views-table thead th.views-field,
+#node-230 .view-content table.views-table tbody td.views-field
+{
+	text-align: center;
+	vertical-align: top !important;
+}
+
+
+#quicktabs-menu_tabs .views-field-body,
+#node-81 .views-field-body,
+#node-97 .views-field-body,
+#node-119 .views-field-body,
+#node-135 .views-field-body,
+#node-150 .views-field-body,
+#node-156 .views-field-body,
+#node-165 .views-field-body,
+#node-174 .views-field-body,
+#node-182 .views-field-body,
+#node-192 .views-field-body,
+#node-212 .views-field-body,
+#node-220 .views-field-body,
+#node-224 .views-field-body,
+#node-226 .views-field-body,
+#node-227 .views-field-body,
+#node-228 .views-field-body,
+#node-230 .views-field-body
+
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 350px;
+	padding-bottom: 10px;
+}
+
+#node-182 .views-field-body {
+	width: 400px !important;
+}
+
+#quicktabs-menu_tabs .views-row,
+#node-81 .views-row,
+#node-97 .views-row,
+#node-119 .views-row,
+#node-135 .views-row,
+#node-150 .views-row,
+#node-156 .views-row,
+#node-165 .views-row,
+#node-174 .views-row,
+#node-182 .views-row,
+#node-192 .views-row,
+#node-212 .views-row,
+#node-220 .views-row,
+#node-224 .col-first,
+#node-224 .col-last,
+#node-226 .col-last,
+#node-226 .col-first,
+#node-227 .col-last,
+#node-227 .col-first,
+#node-228 .col-last,
+#node-228 .col-first,
+#node-230 .col-last,
+#node-230 .col-first  
+{
+	/*padding-bottom: 15px;*/
+	padding-left: 4px;
+	background-color: #F4FCE8; 
+	margin-bottom: 0px;
+	border-bottom: 1px solid #CCC;
+}
+
+
+#quicktabs-menu_tabs .views-field-field-menu-price-value, 
+#node-81 .views-field-field-menu-price-value,
+#node-97 .views-field-field-menu-price-value,
+#node-119 .views-field-field-menu-price-value,
+#node-135 .views-field-field-menu-price-value,
+#node-150 .views-field-field-menu-price-value,
+#node-156 .views-field-field-menu-price-value,
+#node-165 .views-field-field-menu-price-value,
+#node-174 .views-field-field-menu-price-value,
+#node-182 .views-field-field-menu-price-value,
+#node-192 .views-field-field-menu-price-value,
+#node-212 .views-field-field-menu-price-value,
+#node-220 .views-field-field-menu-price-value,
+#node-224 .views-field-field-menu-price-value,
+#node-226 .views-field-field-menu-price-value,
+#node-227 .views-field-field-menu-price-value,
+#node-228 .views-field-field-menu-price-value,
+#node-230 .views-field-field-menu-price-value
+{
+	display: inline-block;
+	float: right;
+	width: 85px;
+	text-align: right;
+	margin-right: 5px;
+} 
+
+#quicktabs-menu_tabs .views-field-edit-node,
+#node-81 .views-field-edit-node,
+#node-97 .views-field-edit-node,
+#node-119 .views-field-edit-node,
+#node-135 .views-field-edit-node,
+#node-150 .views-field-edit-node,
+#node-156 .views-field-edit-node,
+#node-165 .views-field-edit-node,
+#node-174 .views-field-edit-node,
+#node-182 .views-field-edit-node,
+#node-192 .views-field-edit-node,
+#node-212 .views-field-edit-node,
+#node-220 .views-field-edit-node,
+#node-224 .views-field-edit-node,
+#node-226 .views-field-edit-node,
+#node-227 .views-field-edit-node,
+#node-228 .views-field-edit-node,
+#node-230 .views-field-edit-node
+{ 
+	clear: both;
+	margin-top: 5px;
+}
+
+#quicktabs-menu_tabs .views-field-title h4,
+#node-81 .views-field-title h4,
+#node-97 .views-field-title h4,
+#node-119 .views-field-title h4,
+#node-135 .views-field-title h4,
+#node-150 .views-field-title h4,
+#node-156 .views-field-title h4,
+#node-165 .views-field-title h4,
+#node-174 .views-field-title h4,
+#node-182 .views-field-title h4,
+#node-192 .views-field-title h4,
+#node-212 .views-field-title h4,
+#node-220 .views-field-title h4
+{
+	margin-top: 0px;
+	padding-top: 12px;
+}
+
+#node-97 .panels-flexible-region-inside-last .pane-title,
+#node-119 .panels-flexible-region-inside-last .pane-title,
+#node-135 .panels-flexible-region-inside-last .pane-title
+{
+	color: white;
+}
+
+#node-97 .panels-flexible-region-inside-last .view-header,
+#node-97 .panels-flexible-region-inside-last .view-header
+{
+	visibility: hidden;
+}
+
+.views-field-field-menu-sub-item-value,
+.views-field-field-menu-sub-item-2-value,
+.views-field-field-menu-sub-item-3-value
+{
+	/*display: inline-block !important;*/
+	float: left;
+	margin-top: 5px;
+	
+}
+
+.views-field-field-menu-sub-item-price-value,
+.views-field-field-menu-sub-item-2-price-value,
+.views-field-field-menu-sub-item-3-price-value
+{
+	/*float: right;*/
+	display: inline !important;
+}
+
+.view-content .sub-div {
+	clear: both;
+	position: relative;
+	/*margin-top: 14px;*/
+	/*display: inline;*/
+		
+}
+
+.view-content .views-field-nothing-1 {
+	display: inline;
+}
+
+.view-content .views-field-nothing {
+	
+}
+
+
+.view-content .sub-value {
+	float: left;
+	width: 350px;
+	/*line-height: 2.4em;*/
+}
+
+.view-content .sub-price {
+	float: right;
+	display: inline;
+	clear: none !important;
+	margin-right: 5px;
+	min-width: 1px;
+	/*min-height: 10px;*/
+	
+}
+
+.view-content .sub-spacer-two {
+	
+	height: 10px;
+}
+
+.view-content .sub-price br {
+	clear: none !important;
+	display: none !important;
+}
+
+.view-content .sub-spacer {
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+}
+
+#quicktabs-menu_tabs li,
+#quicktabs-catering_menu_tabs li
+{
+	margin-right: 4px;
+	
+}
+
+.panels-flexible-region-menu_layout-left {
+	padding-left: 14px;
+	width: 48.5%;
+}
+
+.panels-flexible-region-menu_layout-right {
+	float: right;
+	padding-right: 14px;
+	width: 48.5%;
+}
+
+.panels-flexible-region-menu_layout-top {
+	width: 100%;
+	
+}
+
+.panels-flexible-row-menu_layout-1 h2{
+	margin-bottom: 0px; 
+}
+
+
+/*Mobile View*/
+.page-closed-tickets-survey-mobile .views-table tbody tr td.views-field-Name {
+	width: 35% !important;
+}

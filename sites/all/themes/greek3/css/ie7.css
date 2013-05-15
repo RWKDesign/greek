@@ -1,0 +1,17 @@
+
+
+/* Greek3 customizations - ak */
+#block-block-4 {clear: left; margin-left: -960px;}
+
+.region-content-top img,
+#block-block-24 img,
+#block-block-1 img {float: left;}
+
+p.highlight {line-height: 1em; margin-top:0;}
+
+/*
+#header div#block-block-29 {width: 478px;}
+
+#block-webformblock-2,
+#block-block-19 .lower-right-text, #block-block-16 .lower-right-text {height: 380px;}*/
+#block-block-8 .lower-right-text {height: 380px; overflow: hidden;}
